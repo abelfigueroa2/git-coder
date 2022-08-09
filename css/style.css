@@ -142,6 +142,30 @@ footer {
 .social {
 	align-items: center;	
 }
+#animacion {
+	animation-name: un_efecto;
+	width: auto;
+   height: auto;
+   background-color: green;
+   animation-name: un_efecto;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in;
+   animation-duration: 2s;
+   animation-delay: 10s;
+   align-items: center;
+
+
+}
+@keyframes un_efecto {
+	0%{ color: red; }
+   25%{color: green; }
+   50%{ color: blue;}
+   75%{ color: yellow;}
+   100%{ color: brown;}
+
+	
+
+}
 @media only screen and (min-width: 0px) and (max-width: 767px){
 	.grid-container{
 		display: grid; 
@@ -179,3 +203,4 @@ footer {
 	display: inline-block;
 	margin: auto;
 }
+
