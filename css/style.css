@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	
+}	
+.logo {
+	width: 200px;
+    height: 200px;
+
+}
+
+.grid-container {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-areas: 
+	"header header header"
+	"main main main"
+	"footer footer footer";
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: auto;
+	
+		
+	}
+	/*.grid-container div {
+		text-align: center;
+		border: 1px solid white;
+		align-items: center;
+		grid-column-gap: 300px;
+	}
+	.item1
+	{
+		grid-area: header;
+	}
+	.item2	{
+		grid-area: main;
+	}
+	.item3 {
+		grid-area: footer;
+	}
+	*/
+header {
+	color: aliceblue;
+	background-color: blanchedalmond;
+	margin-right: 5px;
+	margin-left: 5px;
+    padding: 5px;
+    border: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+	grid-template-columns: 1/4;
+	}
+/*.navegador {
+	margin-right: 100px;
+	margin-left: 20px;
+	color: beige;
+	}*/
+.iniciar_sesion	{
+	margin-left: 700px;
+}
+li {
+		display: inline;
+		margin-left: 35px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+body {
+	background-image: url('https://www.xtrafondos.com/wallpapers/textura-de-madera-2927.jpg	');
+	height: 100vh;
+}
+
+h1 {
+    color: rgb(41, 24, 24);
+    font-size: 150px;
+    font-family: 'Mukta', sans-serif;
+    font-style: initial;
+    text-align: center;
+	margin-top: 40px;
+	
+}
+.subtitulo {
+    color: navajowhite;
+    margin-top: 50px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.imagen {
+	width: 500px;
+    height: 500px;
+	padding:8px;
+	background-color: navajowhite;
+	border: 2px solid brown;
+	    }
+
+.texto {
+	color: black;
+	font-size: 25px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin-top: 40px;
+	margin-left: 20px;
+	display: flex ;
+	justify-content: center;
+	background-image: linear-gradient(red, yellow)
+	
+}
+section {
+	font-size: 30px;
+	font-style: italic;
+	text-align: justify;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 100px;
+	margin-left: 200px;
+	margin-right: 200px;
+	transform: translate(10px, 20px)
+
+	}
+footer {
+	font-size: 20px;
+	margin-top: 30px;
+	background-color: rgba(200, 212, 195, 0.466);
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	width: 100%;
+    height: 200px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	}
+.social {
+	align-items: center;	
+}
+@media only screen and (min-width: 0px) and (max-width: 767px){
+	.grid-container{
+		display: grid; 
+		grid-template-areas:
+		"header header" "main main"
+		"img img" "footer footer"; 
+		grid-template-columns: 50% 50%;
+		grid-template-rows: auto;
+
+}
+
+		#foto1{
+			max-width: 100%;
+  			height: auto;
+  			margin: 20px;
+  			padding: 5px;
+  			display: inline-block;
+  			margin: auto;
+  			margin-left: 10%;
+		  }
+		  #foto2{
+			max-width: 100%;
+  			height: auto;
+  			margin: 20px;
+  			padding: 5px;
+  			display: inline-block;
+  			margin: auto;
+	
+}
+#nave{
+  max-width: 100%;
+	height: auto;
+	margin: 20px;
+	padding: 5px;
+	display: inline-block;
+	margin: auto;
+}
