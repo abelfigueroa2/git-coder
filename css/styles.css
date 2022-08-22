@@ -175,6 +175,21 @@ main textarea {
 
 main .botones {
   margin-right: 400px;
+}
+
+main #parrafo_alquila {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+main #iniciar_sesion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 1200px;
+  margin-left: 200px;
+  margin-top: 100px;
 } /*# sourceMappingURL=styles.css.map */
 
 /*# sourceMappingURL=styles.css.map */

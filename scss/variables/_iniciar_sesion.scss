@@ -1,0 +1,15 @@
+main {
+    #parrafo_alquila {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #iniciar_sesion {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-right: 1200px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+}
