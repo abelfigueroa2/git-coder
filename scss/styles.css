@@ -161,9 +161,15 @@ main .pregunta {
 main input {
   margin-top: 10px;
   margin-right: 200px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: navajowhite;
 }
 main textarea {
   margin-top: 10px;
+  background-color: navajowhite;
+  border: none;
+  border-bottom: 1px solid black;
 }
 main .botones {
   margin-right: 400px;
