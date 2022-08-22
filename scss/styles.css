@@ -51,7 +51,6 @@ main #titulo {
   justify-content: center;
   margin-top: 40px;
 }
-
 main .subtitulo {
   color: navajowhite;
   margin-top: 50px;
@@ -61,7 +60,6 @@ main .subtitulo {
   flex-direction: row;
   justify-content: center;
 }
-
 main .texto {
   color: black;
   font-size: 25px;
@@ -72,7 +70,6 @@ main .texto {
   justify-content: center;
   background-image: linear-gradient(wheat, rgb(180, 172, 172));
 }
-
 main .imagen {
   width: 500px;
   height: 500px;
@@ -80,7 +77,6 @@ main .imagen {
   background-color: navajowhite;
   border: 2px brown;
 }
-
 main section {
   font-size: 30px;
   font-style: italic;
@@ -156,25 +152,19 @@ main #formulario_contacto {
   margin-left: 200px;
   margin-top: 100px;
 }
-
 main .pregunta {
   display: flex;
   flex-direction: row;
   height: 50px;
   justify-content: space-around;
 }
-
 main input {
   margin-top: 10px;
   margin-right: 200px;
 }
-
 main textarea {
   margin-top: 10px;
 }
-
 main .botones {
   margin-right: 400px;
-} /*# sourceMappingURL=styles.css.map */
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

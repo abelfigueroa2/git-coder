@@ -17,7 +17,9 @@ header {
     li {
 		display: inline;
 		margin-left: 35px;
-		font-weight: bold;
+        color: aquamarine;
+		font-weight:lighter;
+        box-shadow: none;
 		text-decoration: none;
 	}
 main {
@@ -64,10 +66,10 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 100px;
+    /*margin-top: 100px;
     margin-left: 200px;
     margin-right: 200px;
-    transform: translate(10px, 20px)}
+    transform: translate(10px, 20px)*/}
     
     }
 

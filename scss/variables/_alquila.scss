@@ -1,0 +1,37 @@
+header {
+    li {
+        
+            display: inline;
+        margin-left: 35px;
+        color: aquamarine;
+        font-weight: lighter;
+        box-shadow: none;
+        text-decoration: none;
+
+    };
+}
+main #titulo {
+    color: rgb(41, 24, 24);
+    font-size: 150px;
+    font-family: "Mukta", sans-serif;
+    font-style: initial;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;}
+
+    #parrafo_alquila {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #imagenes {
+        color: $blanco;
+        font-size: large;
+        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 85px;
+        margin-top: 30px;
+    }
