@@ -17,6 +17,7 @@ header {
     li {
 		display: inline;
 		margin-left: 35px;
+        background-color: $piel;
         color: aquamarine;
 		font-weight:lighter;
         box-shadow: none;
@@ -33,7 +34,7 @@ flex-direction: row;
 justify-content: center;
 margin-top: 40px;
 }
-.subtitulo {
+    .subtitulo {
     color: $claro;
     margin-top: 50px;
     font-family: 'Mukta', sans-serif;
@@ -42,7 +43,7 @@ margin-top: 40px;
     flex-direction: row;
     justify-content: center;      
 }
-.texto {
+    .texto {
     color: $negro;
 font-size: 25px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -52,26 +53,22 @@ display: flex ;
 justify-content: center;
 background-image: linear-gradient(wheat, rgb(180, 172, 172))
 }
-.imagen {
-    width: 500px;
+    .imagen {
+width: 500px;
 height: 500px;
 padding:8px;
 background-color: $claro;
 border: 2px $marron;
 }
-section {
+    section {
     font-size: 30px;
     font-style: italic;
     text-align: justify;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    /*margin-top: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
-    transform: translate(10px, 20px)*/}
-    
     }
+}
 
 footer {
         font-size: 20px;
