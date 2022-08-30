@@ -1,4 +1,5 @@
 /*colores*/
+/*Mixins*/
 * {
   margin: 0;
   padding: 0;
@@ -35,6 +36,7 @@ header {
 li {
   display: inline;
   margin-left: 35px;
+  background-color: blanchedalmond;
   color: aquamarine;
   font-weight: lighter;
   box-shadow: none;
@@ -46,29 +48,30 @@ main #titulo {
   font-size: 150px;
   font-family: "Mukta", sans-serif;
   font-style: initial;
+  margin-top: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 40px;
 }
 main .subtitulo {
   color: navajowhite;
   margin-top: 50px;
   font-family: "Mukta", sans-serif;
-  font-size: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-main .texto {
+main .texto, main .texto2 {
   color: black;
   font-size: 25px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin-top: 40px;
   margin-left: 20px;
-  display: flex;
-  justify-content: center;
   background-image: linear-gradient(wheat, rgb(180, 172, 172));
+}
+main .texto2 {
+  color: brown;
+  padding: 20px;
 }
 main .imagen {
   width: 500px;
@@ -84,10 +87,6 @@ main section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /*margin-top: 100px;
-  margin-left: 200px;
-  margin-right: 200px;
-  transform: translate(10px, 20px)*/
 }
 
 footer {

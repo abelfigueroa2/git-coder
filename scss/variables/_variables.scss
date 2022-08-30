@@ -7,4 +7,19 @@ $marron: brown;
 $blanco: white;
 $negro: black;
 $colorfooter: rgba(200, 212, 195, 0.466);
+
+/*Mixins*/
+@mixin Flex-row-space {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+@mixin flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
  

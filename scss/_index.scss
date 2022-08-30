@@ -29,19 +29,14 @@ main {
 font-size: 150px;
 font-family: 'Mukta', sans-serif;
 font-style: initial;
-display: flex;
-flex-direction: row;
-justify-content: center;
 margin-top: 40px;
+@include flex-row-center;
 }
     .subtitulo {
     color: $claro;
     margin-top: 50px;
     font-family: 'Mukta', sans-serif;
-    font-size: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;      
+    @include flex-row-center;    
 }
     .texto {
     color: $negro;
@@ -49,10 +44,16 @@ font-size: 25px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 margin-top: 40px;
 margin-left: 20px;
-display: flex ;
-justify-content: center;
-background-image: linear-gradient(wheat, rgb(180, 172, 172))
+background-image: linear-gradient(wheat, rgb(180, 172, 172));
+
+
 }
+    .texto2{
+    @extend .texto;
+    color: brown;
+    padding: 20px;
+
+    }
     .imagen {
 width: 500px;
 height: 500px;
@@ -64,9 +65,7 @@ border: 2px $marron;
     font-size: 30px;
     font-style: italic;
     text-align: justify;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    @include Flex-row-space;
     }
 }
 
