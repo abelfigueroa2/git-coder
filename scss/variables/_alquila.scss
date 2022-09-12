@@ -12,7 +12,8 @@ header {
 }
 main #titulo {
     color: rgb(41, 24, 24);
-    font-size: 150px;
+    font-size: 100px;
+    margin: 150px;
     font-family: "Mukta", sans-serif;
     font-style: initial;
     display: flex;
@@ -24,14 +25,25 @@ main #titulo {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #carouselExampleControls {
+        width: 500px;
+height: 500px;
+display: flex;
+flex-direction: row;
+justify-content: center;
     }
     #imagenes {
         color: $blanco;
         font-size: large;
         font-weight: bold;
+        font-family: italic;
+        border: 5px;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
         margin-left: 85px;
         margin-top: 30px;
     }
