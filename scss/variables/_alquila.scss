@@ -28,13 +28,7 @@ main #titulo {
         font-size: 30px;
         font-weight: bold;
     }
-    #carouselExampleControls {
-        width: 500px;
-height: 500px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-    }
+    
     #imagenes {
         color: $blanco;
         font-size: large;
@@ -43,7 +37,10 @@ justify-content: center;
         border: 5px;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
         margin-left: 85px;
+        margin-right: 85px;
         margin-top: 30px;
+        padding: 15px;
+        background-image: linear-gradient(wheat, rgb(138, 129, 88));
     }

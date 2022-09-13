@@ -28,13 +28,14 @@ body {
 }
     
 main {
-    #titulo {
+    .titulo {
     color: rgb(41, 24, 24);
-font-size: 110px;
+font-size: 100px;
 font-family: 'Mukta', sans-serif;
 font-style: initial;
-margin-top: 10px;
-padding: 10px;
+margin-right: 200px;
+margin-left: 200px;
+margin-top: 100px;
 @include flex-row-center;
 }
     .subtitulo {
@@ -49,7 +50,7 @@ padding: 10px;
 font-size: 25px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 margin-top: 40px;
-margin-left: 20px;
+margin-left: 0px;
 background-image: linear-gradient(wheat, rgb(138, 129, 88));
 @include flex-row-center;
 
@@ -57,7 +58,18 @@ background-image: linear-gradient(wheat, rgb(138, 129, 88));
 }
     .texto2{
     @extend .texto;
-    color: rgb(146, 9, 9);
+    color: rgb(82, 82, 82);
+    padding: 20px;
+    font-size: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    }
+    .descripcion {
+    @extend .texto;
+    color: rgb(82, 82, 82);
     padding: 20px;
     font-size: 20px;
     margin: auto;
@@ -72,6 +84,13 @@ width: 500px;
 height: 500px;
 padding:8px;
 background-color: $claro;
+margin-left: 20px;
+}
+#imagen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
 }
 }
 

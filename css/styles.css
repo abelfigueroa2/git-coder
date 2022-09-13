@@ -40,13 +40,14 @@ body {
   min-height: 100%;
   background-image: url("https://www.xtrafondos.com/wallpapers/textura-de-madera-2927.jpg	"); }
 
-main #titulo {
+main .titulo {
   color: #291818;
-  font-size: 110px;
+  font-size: 100px;
   font-family: 'Mukta', sans-serif;
   font-style: initial;
-  margin-top: 10px;
-  padding: 10px;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center; }
@@ -60,19 +61,28 @@ main .subtitulo {
   flex-direction: row;
   justify-content: center; }
 
-main .texto, main .texto2 {
+main .texto, main .texto2, main .descripcion {
   color: black;
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-top: 40px;
-  margin-left: 20px;
+  margin-left: 0px;
   background-image: linear-gradient(wheat, #8a8158);
   display: flex;
   flex-direction: row;
   justify-content: center; }
 
 main .texto2 {
-  color: #920909;
+  color: #525252;
+  padding: 20px;
+  font-size: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+main .descripcion {
+  color: #525252;
   padding: 20px;
   font-size: 20px;
   margin: auto;
@@ -84,7 +94,14 @@ main .imagen {
   width: 500px;
   height: 500px;
   padding: 8px;
-  background-color: navajowhite; }
+  background-color: navajowhite;
+  margin-left: 20px; }
+
+main #imagen {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px; }
 
 footer {
   font-size: 20px;
@@ -130,13 +147,6 @@ main #titulo {
   font-size: 30px;
   font-weight: bold; }
 
-#carouselExampleControls {
-  width: 500px;
-  height: 500px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-
 #imagenes {
   color: white;
   font-size: large;
@@ -145,23 +155,26 @@ main #titulo {
   border: 5px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-left: 85px;
-  margin-top: 30px; }
+  margin-right: 85px;
+  margin-top: 30px;
+  padding: 15px;
+  background-image: linear-gradient(wheat, #8a8158); }
 
 main #formulario_contacto {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin-right: 1200px;
-  margin-left: 200px;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 200px;
+  margin-left: 220px;
   margin-top: 100px; }
 
 main .pregunta {
   display: flex;
   flex-direction: row;
   height: 50px;
-  justify-content: space-around; }
+  justify-content: center; }
 
 main input {
   margin-top: 10px;
@@ -179,6 +192,11 @@ main textarea {
 main .botones {
   margin-right: 400px; }
 
+main .contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
 main #parrafo_alquila {
   display: flex;
   flex-direction: row;
@@ -187,12 +205,12 @@ main #parrafo_alquila {
 main #iniciar_sesion {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
   margin-right: 1200px;
   margin-left: 200px;
   margin-top: 100px;
   border: 20px;
-  background-color: #81744e; }
+  background-image: linear-gradient(wheat, #8a8158); }
 
 main .recuperar {
   margin-left: 200px;

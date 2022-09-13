@@ -1,18 +1,17 @@
 main {
     #formulario_contacto {
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-               
-        margin-right: 1200px;
-        margin-left: 200px;
+        flex-direction: row;
+        justify-content: center;      
+        margin-right: 200px;
+        margin-left: 220px;
         margin-top: 100px;
-    }
+     }
     .pregunta {
         display: flex;
         flex-direction: row;
         height: 50px;
-        justify-content: space-around;
+        justify-content: center;
     }
     input {
         margin-top: 10px;
@@ -31,5 +30,10 @@ main {
     .botones {
         margin-right: 400px;
     }
+    .contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
 
+    }
 }
