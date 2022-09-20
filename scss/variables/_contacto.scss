@@ -1,11 +1,30 @@
 main {
+    #paginacontacto {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
     #formulario_contacto {
         display: flex;
         flex-direction: row;
-        justify-content: center;      
-        margin-right: 200px;
-        margin-left: 220px;
+        justify-content: center;
+        height: 500px;   
         margin-top: 100px;
+        background-color: grey;
+        border: 20px black;
+        overflow-x: hidden;
+        border-color: #aaaaaa;
+        border-width: 3px;
+        border-style: solid;
+     }
+     #mapa2 {
+        margin-top: 100px;
+     }
+     #ubicacion {
+        color: $blanco;
+        font-size: large;
+        font-weight: bold;
+        font-family: italic;
      }
     .pregunta {
         display: flex;
@@ -34,6 +53,9 @@ main {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        width: 455px;
+        height: 400px;
+
 
     }
 }

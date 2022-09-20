@@ -37,10 +37,16 @@ main #titulo {
         border: 5px;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-        margin-left: 85px;
-        margin-right: 85px;
-        margin-top: 30px;
+        justify-content: space-between;
         padding: 15px;
         background-image: linear-gradient(wheat, rgb(138, 129, 88));
+    }
+    #mapa {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+    #mapa3 {
+        margin-top: 20px;
     }

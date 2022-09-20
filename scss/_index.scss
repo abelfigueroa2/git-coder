@@ -18,6 +18,10 @@ header {
         box-shadow: none;
 		text-decoration: none;
 	}
+    .logo {
+        width: 180px;
+        height: 180px;
+    }
 html {
         height: 100%;
     }
@@ -30,7 +34,7 @@ body {
 main {
     .titulo {
     color: rgb(41, 24, 24);
-font-size: 100px;
+font-size: 70px;
 font-family: 'Mukta', sans-serif;
 font-style: initial;
 margin-right: 200px;
@@ -42,7 +46,7 @@ margin-top: 100px;
     color: $claro;
     margin-top: 10px;
     font-family: 'Mukta', sans-serif;
-    font-size: 75px;
+    font-size: 60px;
     @include flex-row-center;
 }
     .texto {
@@ -80,16 +84,20 @@ background-image: linear-gradient(wheat, rgb(138, 129, 88));
     }
 
     .imagen {
-width: 500px;
-height: 500px;
 padding:8px;
 background-color: $claro;
 margin-left: 20px;
 }
-#imagen {
+#fotografia1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 10px;
+}
+#imagen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin-top: 40px;
 }
 }
@@ -101,7 +109,7 @@ footer  {
 	font-family: Arial, Helvetica, sans-serif;
 	color: black;
 	width: 100%;
-    height: 200px;
+    height: 130px;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -109,6 +117,7 @@ footer  {
     .social {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        margin-top: 50px;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }

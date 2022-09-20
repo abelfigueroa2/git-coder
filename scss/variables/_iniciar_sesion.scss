@@ -5,20 +5,33 @@ main {
         justify-content: center;
     }
     #iniciar_sesion {
+        border: 1cm white;
         display: flex;
         flex-direction: row;
         justify-content: left;
-        margin-right: 1200px;
-        margin-left: 200px;
-        margin-top: 100px;
-        border: 20px;
+        border-color: #aaaaaa;
+        border-width: 3px;
+        border-style: solid;
+        margin-top: 40px;
+        padding: 20px;
         background-image: linear-gradient(wheat, rgb(138, 129, 88));
-
+    }
+    #formularios {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    }
+    #formularioinicio {
+        border: 1cm;
     }
     .recuperar {
-        margin-left: 200px;
         margin-top: 10px;
         background-color: $piel;
         border: 0cm;
     }
-}
+    #fotografia2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }

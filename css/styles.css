@@ -33,6 +33,10 @@ li {
   box-shadow: none;
   text-decoration: none; }
 
+.logo {
+  width: 180px;
+  height: 180px; }
+
 html {
   height: 100%; }
 
@@ -42,7 +46,7 @@ body {
 
 main .titulo {
   color: #291818;
-  font-size: 100px;
+  font-size: 70px;
   font-family: 'Mukta', sans-serif;
   font-style: initial;
   margin-right: 200px;
@@ -56,7 +60,7 @@ main .subtitulo {
   color: navajowhite;
   margin-top: 10px;
   font-family: 'Mukta', sans-serif;
-  font-size: 75px;
+  font-size: 60px;
   display: flex;
   flex-direction: row;
   justify-content: center; }
@@ -91,16 +95,20 @@ main .descripcion {
   justify-content: center; }
 
 main .imagen {
-  width: 500px;
-  height: 500px;
   padding: 8px;
   background-color: navajowhite;
   margin-left: 20px; }
 
-main #imagen {
+main #fotografia1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 10px; }
+
+main #imagen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   margin-top: 40px; }
 
 footer {
@@ -110,7 +118,7 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   color: black;
   width: 100%;
-  height: 200px;
+  height: 130px;
   text-align: center;
   display: flex;
   flex-direction: column; }
@@ -118,8 +126,9 @@ footer {
 .social {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  margin-top: 50px; }
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 40px; }
 
 header li {
   display: inline;
@@ -155,20 +164,45 @@ main #titulo {
   border: 5px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  margin-left: 85px;
-  margin-right: 85px;
-  margin-top: 30px;
+  justify-content: space-between;
   padding: 15px;
   background-image: linear-gradient(wheat, #8a8158); }
+
+#mapa {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px; }
+
+#mapa3 {
+  margin-top: 20px; }
+
+main #paginacontacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
 
 main #formulario_contacto {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-right: 200px;
-  margin-left: 220px;
+  height: 500px;
+  margin-top: 100px;
+  background-color: grey;
+  border: 20px black;
+  overflow-x: hidden;
+  border-color: #aaaaaa;
+  border-width: 3px;
+  border-style: solid; }
+
+main #mapa2 {
   margin-top: 100px; }
+
+main #ubicacion {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  font-family: italic; }
 
 main .pregunta {
   display: flex;
@@ -195,7 +229,9 @@ main .botones {
 main .contenido {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  width: 455px;
+  height: 400px; }
 
 main #parrafo_alquila {
   display: flex;
@@ -203,17 +239,31 @@ main #parrafo_alquila {
   justify-content: center; }
 
 main #iniciar_sesion {
+  border: 1cm white;
   display: flex;
   flex-direction: row;
   justify-content: left;
-  margin-right: 1200px;
-  margin-left: 200px;
-  margin-top: 100px;
-  border: 20px;
+  border-color: #aaaaaa;
+  border-width: 3px;
+  border-style: solid;
+  margin-top: 40px;
+  padding: 20px;
   background-image: linear-gradient(wheat, #8a8158); }
 
-main .recuperar {
-  margin-left: 200px;
+main #formularios {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+#formularioinicio {
+  border: 1cm; }
+
+.recuperar {
   margin-top: 10px;
   background-color: blanchedalmond;
   border: 0cm; }
+
+#fotografia2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
