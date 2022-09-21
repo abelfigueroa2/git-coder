@@ -46,7 +46,7 @@ body {
 
 main .titulo {
   color: #291818;
-  font-size: 70px;
+  font-size: 65px;
   font-family: 'Mukta', sans-serif;
   font-style: initial;
   margin-right: 200px;
@@ -185,9 +185,11 @@ main #paginacontacto {
 main #formulario_contacto {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   height: 500px;
+  width: 1000px;
   margin-top: 100px;
+  margin-left: 100px;
   background-color: grey;
   border: 20px black;
   overflow-x: hidden;
