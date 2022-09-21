@@ -187,9 +187,10 @@ main #formulario_contacto {
   flex-direction: row;
   justify-content: center;
   height: 500px;
-  width: 1000px;
+  /*width: 1000px;*/
   margin-top: 100px;
   margin-left: 75px;
+  margin-right: 50px;
   background-color: grey;
   border: 20px black;
   overflow-x: hidden;
@@ -198,7 +199,8 @@ main #formulario_contacto {
   border-style: solid; }
 
 main #mapa2 {
-  margin-top: 100px; }
+  margin-top: 100px;
+  margin-left: 40px; }
 
 main #ubicacion {
   color: white;
@@ -231,7 +233,7 @@ main .botones {
 main .contenido {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: right;
   width: 455px;
   height: 400px; }
 
