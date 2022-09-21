@@ -185,11 +185,11 @@ main #paginacontacto {
 main #formulario_contacto {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   height: 500px;
   width: 1000px;
   margin-top: 100px;
-  margin-left: 100px;
+  margin-left: 75px;
   background-color: grey;
   border: 20px black;
   overflow-x: hidden;
