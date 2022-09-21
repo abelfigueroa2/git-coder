@@ -228,13 +228,13 @@ main textarea {
   border-bottom: 1px solid black; }
 
 main .botones {
-  margin-right: 400px; }
+  margin-right: 250px; }
 
 main .contenido {
   display: flex;
   flex-direction: column;
-  justify-content: right;
-  width: 455px;
+  justify-content: center;
+  width: 380px;
   height: 400px; }
 
 main #parrafo_alquila {
